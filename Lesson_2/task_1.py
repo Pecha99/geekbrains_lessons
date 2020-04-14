@@ -21,11 +21,11 @@ def sravnenie_numbers(a, b):
     Функция принимает два числа и возвращает результат их сравнения.
     """
     if a > b:
-        print(f'Сумма цифр первого числа больше и равна: {a}')
+        print(f'Сумма цифр первого числа({first_number}) больше и равна: {a}')
     elif a < b:
-        print(f'сумма цифр второго числа больше и равно: {b}')
+        print(f'сумма цифр второго числа({second_number}) больше и равно: {b}')
     else:
-        print('Сумма цифр равна')
+        print(f'Сумма цифр у чисел {first_number} и {second_number} одинакова и равна {a}')
 
 a = summa_number(first_number)
 b = summa_number(second_number)
